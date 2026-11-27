@@ -1,0 +1,21 @@
+output_dir: "results"
+seed: 10
+task: "REDDIT"
+dryrun: False
+save_prompts: True
+timeout: 0.0
+task_config:
+    path: "data/synthetic/synthetic_dataset.jsonl"
+    outpath: "predicted_synthetic_gpt6_astra_smoke.jsonl"
+    profile_filter:
+      hardness: 1
+      certainty: 1
+      num_tokens: 3000
+    eval: False
+    max_prompts: 1
+gen_model:
+  name: "gpt-6.1-sol"
+  provider: "openai"
+  args:
+    temperature: 0.1
+    max_tokens: 600

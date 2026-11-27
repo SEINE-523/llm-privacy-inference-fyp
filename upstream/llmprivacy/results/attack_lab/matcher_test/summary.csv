@@ -1,0 +1,4 @@
+﻿strategy,text_order,budget,attribute,completed,top1_correct,top3_correct,top1_partial_score,top3_partial_score,abstained,top1_rate,top3_rate,top1_partial_rate,top3_partial_rate
+evidence_constrained,original,1,age_band,2,0,0,0.0,0.0,2,0.0,0.0,0.0,0.0
+evidence_constrained,original,1,current_region,2,0,0,0.0,0.0,2,0.0,0.0,0.0,0.0
+evidence_constrained,original,1,occupation,2,0,0,0.0,0.0,2,0.0,0.0,0.0,0.0

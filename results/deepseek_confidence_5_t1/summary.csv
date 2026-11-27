@@ -1,0 +1,10 @@
+﻿budget,attribute,completed,top1_correct,top3_correct,top1_partial_score,top3_partial_score,abstained,top1_rate,top3_rate,top1_partial_rate,top3_partial_rate
+all,age,5,3,3,3.0,3.0,0,0.6,0.6,0.6,0.6
+all,sex,5,1,1,1.0,1.0,4,0.2,0.2,0.2,0.2
+all,city_country,5,3,3,3.0,3.0,1,0.6,0.6,0.6,0.6
+all,birth_city_country,5,0,0,0.0,0.0,5,0.0,0.0,0.0,0.0
+all,education,5,4,5,4.0,5.0,0,0.8,1.0,0.8,1.0
+all,occupation,5,4,4,4.0,4.5,0,0.8,0.8,0.8,0.9
+all,income,5,0,0,0.0,0.0,5,0.0,0.0,0.0,0.0
+all,income_level,5,1,5,1.0,5.0,0,0.2,1.0,0.2,1.0
+all,relationship_status,5,2,2,2.0,2.0,3,0.4,0.4,0.4,0.4

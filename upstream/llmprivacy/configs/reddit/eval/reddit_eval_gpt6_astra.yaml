@@ -1,0 +1,18 @@
+output_dir: "results/evaluate"
+seed: 10
+task: "REDDIT"
+dryrun: False
+save_prompts: True
+timeout: 0.0
+store: True
+task_config:
+    path: "predicted_synthetic_gpt6_astra.jsonl"
+    outpath: "eval_results/gpt6_astra_synthetic_eval.jsonl"
+    eval: True
+    decider: "model"
+gen_model:
+  name: "gpt-6.1-sol"
+  provider: "openai"
+  args:
+    temperature: 0.1
+    max_tokens: 600

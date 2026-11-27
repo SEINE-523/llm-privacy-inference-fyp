@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Secrets: keep the template, never the real key
+attack_lab/settings.json
+settings.json
+credentials.py
+.env
+
+# Media that is too large for plain git (>100 MB per file on GitHub)
+*.mp4
+*.mov
+
+# OS / editor
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Local-only material: supervisor slides, scripts, study notes
+_local/

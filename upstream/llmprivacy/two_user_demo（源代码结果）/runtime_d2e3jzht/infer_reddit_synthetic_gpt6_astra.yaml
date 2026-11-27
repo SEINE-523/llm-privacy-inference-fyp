@@ -1,0 +1,21 @@
+output_dir: results
+seed: 10
+task: REDDIT
+dryrun: false
+save_prompts: true
+timeout: 0.0
+task_config:
+  path: two_user_demo\users.jsonl
+  outpath: two_user_demo\runs\20261021_212308_973040\predictions.jsonl
+  profile_filter:
+    hardness: 1
+    certainty: 1
+    num_tokens: 3000
+  eval: false
+gen_model:
+  name: gpt-6-astra
+  provider: openai
+  args:
+    temperature: 0.1
+    max_tokens: 600
+store: false

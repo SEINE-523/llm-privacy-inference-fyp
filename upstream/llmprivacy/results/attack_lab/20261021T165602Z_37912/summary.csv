@@ -1,0 +1,10 @@
+﻿strategy,text_order,budget,attribute,completed,top1_correct,top3_correct,top1_partial_score,top3_partial_score,abstained,top1_rate,top3_rate,top1_partial_rate,top3_partial_rate
+evidence_constrained,original,1,age_band,2,0,0,0.0,0.0,2,0.0,0.0,0.0,0.0
+evidence_constrained,original,1,current_region,2,1,1,1.0,1.0,1,0.5,0.5,0.5,0.5
+evidence_constrained,original,1,occupation,2,0,0,0.5,0.5,1,0.0,0.0,0.25,0.25
+evidence_constrained,original,2,age_band,2,0,0,0.0,0.0,2,0.0,0.0,0.0,0.0
+evidence_constrained,original,2,current_region,2,0,0,0.0,0.0,1,0.0,0.0,0.0,0.0
+evidence_constrained,original,2,occupation,2,2,2,2.0,2.0,0,1.0,1.0,1.0,1.0
+evidence_constrained,original,3,age_band,2,1,1,1.0,1.0,1,0.5,0.5,0.5,0.5
+evidence_constrained,original,3,current_region,2,2,2,2.0,2.0,0,1.0,1.0,1.0,1.0
+evidence_constrained,original,3,occupation,2,2,2,2.0,2.0,0,1.0,1.0,1.0,1.0
